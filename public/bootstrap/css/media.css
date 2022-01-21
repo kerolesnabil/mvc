@@ -1,0 +1,44 @@
+/* start mediaQuer*/
+/* smart phones and tabltes*/
+@media(max-width:767px)
+{
+  .navbar-nav > li > a
+  {
+    padding-top: 10px;
+    padding-bottom:10px;
+  }
+  .subscribe .form-control
+  {
+    margin: 20px auto;
+    width: 400px;
+  }
+  .navbar-fixed-top .navbar-collapse,.navbar-fixed-top .navbar-collapse
+  {
+    max-height: none;
+  }
+  .body
+  {
+    padding-top:71px;
+    /*overflow: hidden;*/
+  }
+}
+/* End phones and tabltes*/
+/* small screen*/
+@media(min-width:768px) and (max-width: 991px)
+{
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand
+  {
+    margin-left: -85px;
+  }
+}
+/* medium screen*/
+@media(min-width:992px) and (max-width: 1199px)
+{
+
+}
+/* large screen*/
+@media(min-width:1200px)
+{
+
+}
+/* End mediaQuer*/
